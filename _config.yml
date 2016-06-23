@@ -1,29 +1,41 @@
-name: focusedinvesting
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.29466
 title: 'Focused Investing: we manage money to help people achieve dreams!'
 cta:
-  domain: null
-  bucket: null
   version: null
+  bucket: null
+  domain: null
+layout_spectrum: 0.2212766
+favicon: null
+name: focusedinvesting
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
+  brandStrength: 1
+  lightness: 0.75
+  saturation: 0.1875
+  rhythmicContrast: 1
   brandColors:
     - '#ffffff'
     - '#1c5c99'
     - '#93c7f6'
     - '#558ed5'
     - '#2a2a2a'
-  brandStrength: 0
-  lightness: 0.75
-  saturation: 0.1875
-  rhythmicContrast: 1
-purpose: []
+typography_spectrum: 0.29466
